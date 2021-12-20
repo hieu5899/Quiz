@@ -1,0 +1,189 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Document   : Created Web Page Ui
+    Created on : May 23, 2021, 9:10:05 PM
+    Author     : Hieu Mau
+*/
+
+body {
+    background-image: url("../image/bg.jpg");
+    height: 866px;
+    background-repeat: repeat-x;
+    font-family: Arial;
+}
+
+.container {
+    padding: 10% 20%;
+}
+
+.box__top{
+    background-image: url("../image/top_box.gif");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 19px;
+}
+
+
+.box {
+    width: 700px;
+    margin: auto;
+}
+
+.box__content {
+    background-color: white;
+    width: 700px;
+    height: auto;
+}
+
+.menu_bar {
+    background-image: url("../image/menu_bg.gif");
+    margin: auto;
+    width: 663px;
+    height: 51px;
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+}
+.menu_item{
+    padding: 15px 22px;
+    text-align: center;
+}
+.menu_item > a{
+    text-decoration: none;
+    font-weight: bold;
+    color: rgba(89,81,71,1.00);
+}
+/*End Common*/
+
+/*Login*/
+.login {
+    margin: auto;
+    width: 663px;
+    height: auto;
+    padding-bottom: 90px;
+}
+
+.login__label {
+    margin-top: 30px;
+    margin-left: 30px;
+    width: fit-content;
+    color: rgba(0,3,130,1.00);
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.login__content {
+    margin-top: 30px;
+    margin-left: 27px;
+}
+
+.login_table .table_label{
+    color: rgba(46,83,101,1.00);
+    width: 95px;
+}
+
+.login_table .table_submit {
+    font-weight: bold;
+}
+.login_table a{
+    text-decoration: none;
+    color: rgba(46,83,101,1.00);
+}
+/*End Login*/
+
+/*Take Quiz*/
+.takequiz {
+    margin: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 620px;
+    color: rgba(46,83,101,1.00);
+}
+
+.takequiz__label{
+    margin-top: 40px;
+}
+
+.takequiz__label > span{
+    color:rgba(0,0,255,1.00);
+}
+
+.takequiz__time{
+    padding-left: 280px;
+}
+.takequiz__time >span{
+    color:rgba(255,17,18,1.00);
+}
+
+.takequiz__button {
+    padding-left: 400px;
+}
+
+.takequiz__question {
+    margin-top: 40px;
+}
+.takequiz__number__text{
+    width: 80px;
+}
+.takequiz__number__button{
+    padding-left: 200px;
+}
+/*End Take Quiz*/
+
+/*Make Quiz*/
+.makequiz {
+    margin: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 620px;
+    color: rgba(46,83,101,1.00);
+}
+
+.makequiz_item > label{
+    float: left;
+    width: 80px;
+}
+.makequiz_button{
+    margin-left: 80px;
+}
+.makequiz_item_checkbox > input{
+    margin-left: 30px;
+}
+/*End Make Quiz*/
+
+/*Manage Quiz*/
+.managequiz {
+    width: 613px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin: auto;
+    color: rgba(46,83,101,1.00);
+}
+.managequiz__content__question > div > tr{
+    width: 80%;
+}
+.quickTable {
+    width: 100%;
+    padding-bottom: 50px;
+}
+.managequiz__title{
+    margin: 40px 0;
+}
+.managequiz__title > span{
+    color:rgba(0,0,255,1.00);
+}
+.managequiz__content__head{
+    color:rgba(0,0,255,1.00);
+}
+.page{
+    display: flex;
+    padding-left: 36%;
+}
+.page_item{
+    list-style-type: none;
+    margin: 5px;
+}
